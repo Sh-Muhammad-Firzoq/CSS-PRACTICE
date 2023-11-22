@@ -30,8 +30,14 @@
         .box4 {
             height: 50vh;
             background-image: repeating-radial-gradient(circle at top left, red 0%, blue 10%, green 20%);
-            background-image: radial-gradient(circle at bottom right, black 0%, blue 30%, green 60%);
+            background-image: radial-gradient(circle at 100% 100%, black 0%, blue 30%, green 60%);
             background-position: top left, top right;
+        }
+        
+        .box5 {
+            height: 50vh;
+            border-radius: 50%;
+            background-image: conic-gradient(at 10% 50%, red 0deg 90deg, yellow 90deg 180deg, green 180deg 270deg, black 240deg);
         }
     </style>
 </head>
@@ -48,6 +54,8 @@
 
     </div>
     <div class="box4"></div>
+
+    <div class="box5"></div>
 </body>
 
 </html>
