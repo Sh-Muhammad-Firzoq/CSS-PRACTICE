@@ -40,6 +40,20 @@
             background-image: conic-gradient(at 10% 50%, red 0deg 90deg, yellow 90deg 180deg, green 180deg 270deg, black 240deg);
             box-shadow: 0px 20px 1px 3px red;
         }
+        
+        .box6 {
+            white-space: nowrap;
+            width: 200px;
+            border: 1px solid #000000;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition: width 2s ease-in-out;
+        }
+        
+        .box6:hover {
+            width: 50%;
+            overflow: auto;
+        }
     </style>
 </head>
 
@@ -57,6 +71,10 @@
     <div class="box4"></div>
 
     <div class="box5"></div>
+
+    <div class="box6">
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ea voluptate obcaecati non totam quas praesentium? Animi quod quaerat illum?</h3>
+    </div>
 </body>
 
 </html>
