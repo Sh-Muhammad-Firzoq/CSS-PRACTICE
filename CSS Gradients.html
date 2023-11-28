@@ -54,6 +54,32 @@
             width: 50%;
             overflow: auto;
         }
+        
+        .box7 {
+            width: 200px;
+            border: 2px solid black;
+            word-wrap: break-word;
+        }
+        
+        .box8 {
+            border: 2px solid black;
+            width: 200px;
+            word-wrap: break-word;
+            word-break: keep-all;
+            writing-mode: vertical-rl;
+        }
+        
+        .box9 {
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            transition: ease 1s width, transform 1s linear;
+        }
+        
+        .box9:hover {
+            width: 80%;
+            transform: scale(1.5, 1.5) rotate(90deg);
+        }
     </style>
 </head>
 
@@ -75,6 +101,20 @@
     <div class="box6">
         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ea voluptate obcaecati non totam quas praesentium? Animi quod quaerat illum?</h3>
     </div>
+
+    <div class="box7">
+        <h2>Lorem ipsum dolor sit ametconsecteturadipisicingelit. Mollitia, repudiandae!</h2>
+    </div>
+    <div class="">
+        <h3 class="box8">Lorem ipsum dolor sit ametconsecteturadipisicing elit. Obcaecati, beatae?</h3>
+    </div>
+
+    <div class="box9"> dskcbkjdbkcjadb</div>
+
+
 </body>
+
+
+
 
 </html>
